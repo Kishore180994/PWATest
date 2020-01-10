@@ -12,9 +12,9 @@ urls = [
   "http://www.facebook.com"
 ];
 
-launchChromeAndRunLighthouse("http://www.google.com", opts).then(results => {
+launchChromeAndRunLighthouse(urls[2], opts).then(results => {
   const html = ReportGenerator.generateReport(results, "html");
-  fs.writeFile("./output/lighthouse_results.html", html, err => {
+  fs.writeFile(`./output/lighthouse_results.html`, html, err => {
     console.log(err);
   });
 });
