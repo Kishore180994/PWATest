@@ -1,5 +1,5 @@
 const { openBrowser, openPage, closeBrowser } = require("./api/puppeteer-api");
-const { launchChromeAndRunLighthouse } = require("./helpers/lighthouse");
+const { runLighthouse } = require("./helpers/lighthouse");
 
 console.log("=======***=======");
 console.log("Starting lighthouse automation using puppeteer");
