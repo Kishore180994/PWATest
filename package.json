@@ -14,7 +14,7 @@
   "dependencies": {
     "appium-adb": "^7.17.0",
     "chrome-launcher": "^0.12.0",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "glob": "^7.1.6",
     "lighthouse": "^5.6.0",
     "npm": "^6.13.6",
